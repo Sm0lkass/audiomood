@@ -22,10 +22,11 @@
 git clone https://github.com/USERNAME/audiomood.git
 cd audiomood
 pip install -r requirements.txt
-
+```
 ## Запуск
 
 Для анализа аудиофайла выполните:
 
 ```bash
 python main.py
+```
