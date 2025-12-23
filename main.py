@@ -2,7 +2,8 @@ from analyzer import *
 from visualization import plot_waveform
 from report import create_pdf_report
 
-audio_path = "C:/Users/k513e/Downloads/propavsaia-gramota.mp3"
+# audio_path = "C:/Users/k513e/Downloads/propavsaia-gramota.mp3"
+audio_path = str(input("Введите имя файла вместе с путем к нему: "))
 
 y, sr = load_audio(audio_path)
 

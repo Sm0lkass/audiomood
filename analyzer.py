@@ -4,7 +4,7 @@ import pyloudnorm as pyln
 from config import CLIP_THRESHOLD, LENGTH_OF_PAUSE, SILENCE_DB
 
 def load_audio(path):
-    y, sr = librosa.load(path, sr=None, mono=True, backend="soundfile")
+    y, sr = librosa.load(path, sr=None, mono=True)
     return y, sr
 
 def analyze_lufs(y, sr):
